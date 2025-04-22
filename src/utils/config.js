@@ -1,8 +1,8 @@
-
 import SavoryIcon from "pages/projects/assets/savory.webp";
 import MarlinIcon from "pages/projects/assets/marlin.png";
 import DittoJobsIcon from "pages/projects/assets/ditto.png";
 import GupshupIcon from "pages/projects/assets/gupshup.png";
+import PromptpalIcon from "pages/projects/assets/promptpal.avif";
 import { ExternalLink } from "pages/projects/ExternalLink";
 import { FaLinkedinIn } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
@@ -166,6 +166,63 @@ export const config = {
     },
     {
       title: (
+        <ExternalLink to="https://newsletter.promptpal.net/">
+          <h3>Promptpal: Discover the best AI prompts</h3>
+        </ExternalLink>
+      ),
+      logo: <img src={PromptpalIcon} alt="Promptpal" width={30} height={30} />,
+      description: (
+        <>
+          <p>
+            PromptPal is an AI-powered tool that provides marketers, writers,
+            designers, and other professionals with prompts to help them get the
+            most out of their work. It allows users to search for prompts based
+            on categories such as content writing, education, development, and
+            marketing.
+          </p>
+          <div>
+            As a developer with Promptpal, I had the following key
+            responsibilities:
+            <ul>
+              <li>
+                <strong>Enhanced User Experience:</strong> Played a key role in
+                improving the platform's UX by contributing to the design and
+                refinement of intuitive, responsive user interfaces.
+              </li>
+              <li>
+                <strong>Developed Advanced Search Component:</strong>{" "}
+                Implemented a versatile multi-purpose search feature, enabling
+                efficient navigation and retrieval of prompts across various AI
+                platforms using algolia.
+              </li>
+              <li>
+                <strong>Implemented Scalable Component Architecture:</strong>{" "}
+                Followed the Atomic Design methodology to build a robust and
+                reusable component structure, supporting systematic and scalable
+                frontend development.
+              </li>
+            </ul>
+          </div>
+        </>
+      ),
+      tags: [
+        "React.js",
+        "Next.js v14",
+        "Typescript",
+        "Material-UI",
+        "Styled-components",
+        "Sanity.io",
+        "Git",
+        "Jest",
+      ],
+      links: [
+        <ExternalLink to="https://www.promptpal.net/platforms/chatgpt">
+          Promptpal Dashboard
+        </ExternalLink>,
+      ],
+    },
+    {
+      title: (
         <ExternalLink to="https://www.ditto.jobs/">
           <h3>Ditto Jobs: Get HIRED with Ditto Jobs.</h3>
         </ExternalLink>
@@ -293,9 +350,7 @@ export const config = {
         "Marketing Dashboard",
         "Superlemon",
       ],
-      links: [
-        <ExternalLink to="https://www.gupshup.io">Gupshup</ExternalLink>,
-      ],
+      links: [<ExternalLink to="https://www.gupshup.io">Gupshup</ExternalLink>],
     },
   ],
   footerLinks: [

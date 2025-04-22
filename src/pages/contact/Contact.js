@@ -2,12 +2,9 @@ import { Helmet } from "react-helmet-async";
 
 import { config } from "utils/config";
 import { Link } from "components/Link";
-import { useOnClickEmail } from "hooks/useOnClickEmail";
 import "./Contact.scss";
 
 export function Contact() {
-  const onClickEmail = useOnClickEmail();
-
   return (
     <>
       <Helmet>
@@ -19,11 +16,7 @@ export function Contact() {
 
         <p>
           {config.contactText}&nbsp;
-          <Link
-            isExternal
-            href={`mailto:${config.emailAddress}`}
-            onClick={onClickEmail}
-          >
+          <Link isExternal href={`mailto:${config.emailAddress}`}>
             {config.emailAddress}
           </Link>
           .
