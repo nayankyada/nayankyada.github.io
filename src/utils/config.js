@@ -280,6 +280,10 @@ export const config = {
               </li>
             </ul>
           </div>
+          <p>
+            This project allowed me to explore technologies such as Redux,
+            Styled-components, Ant Design, and Cypress.io.
+          </p>
         </>
       ),
       tags: [
@@ -350,8 +354,8 @@ export const config = {
             </ul>
           </div>
           <p>
-            This project allowed me to explore technologies such as Progressive
-            Web Apps, AWS services like DynamoDB, AWS Amplify, and s3 Bucket.
+            This project allowed me to explore technologies such as MUI,
+            PolarisUI, Chrome Extension, and Automation and Marketing Dashboard.
           </p>
         </>
       ),
@@ -427,6 +431,10 @@ export const config = {
               </li>
             </ul>
           </div>
+          <p>
+            This project allowed me to explore technologies such as HTML
+            templates, Email templates, Email tracking, and customer engagement.
+          </p>
         </>
       ),
       tags: [
@@ -490,7 +498,7 @@ export const config = {
                 </li>
                 <li>
                   <strong>
-                    Integrated SanityCMS for Dynamic Content Management:
+                    Integrated Sanity.io CMS for Dynamic Content Management:
                   </strong>{" "}
                   Enabled admins to manage various content types—articles,
                   blogs, podcasts, stories, movies, and books—through seamless
@@ -505,6 +513,11 @@ export const config = {
               </ul>
             </ul>
           </div>
+          <p>
+            This project allowed me to explore how technology can be used to
+            solve real-world problems and how to build a product that is
+            scalable and user-friendly.
+          </p>
         </>
       ),
       tags: [
