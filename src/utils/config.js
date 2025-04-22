@@ -1,13 +1,13 @@
 import {
   AngelOneIcon,
   MoneyHopIcon,
-  PromptpalIcon,
   SigNozIcon,
 } from "pages/projects/assets/icons";
+import SavoryIcon from "pages/projects/assets/savory.webp";
+import MarlinIcon from "pages/projects/assets/marlin.png";
 import { ExternalLink } from "pages/projects/ExternalLink";
-import { FaLinkedinIn, FaMediumM, FaTwitter } from "react-icons/fa";
-import { GrSkype } from "react-icons/gr";
-import { ImGithub, ImStackoverflow } from "react-icons/im";
+import { FaLinkedinIn } from "react-icons/fa";
+import { ImGithub } from "react-icons/im";
 import { SiUpwork } from "react-icons/si";
 
 export const config = {
@@ -44,38 +44,47 @@ export const config = {
   projects: [
     {
       title: (
-        <ExternalLink to="https://www.promptpal.net">
-          <h3>Promptpal: Discover the best AI prompts</h3>
+        <ExternalLink to="https://www.savoryandpartners.com/">
+          <h3>
+            Savory & Partners: Second Citizenship & Residency by Investment
+          </h3>
         </ExternalLink>
       ),
-      logo: <PromptpalIcon />,
+      logo: (
+        <img src={SavoryIcon} alt="Savory & Partners" width={30} height={30} />
+      ),
       description: (
         <>
           <p>
-            PromptPal is an AI-powered tool that provides marketers, writers,
-            designers, and other professionals with prompts to help them get the
-            most out of their work. It allows users to search for prompts based
-            on categories such as content writing, education, development, and
-            marketing.
+            Savory & Partners offers programs that allow individuals to obtain
+            citizenship in another country through financial investment,
+            providing benefits like global mobility and economic opportunities.
           </p>
           <div>
-            As a developer with Promptpal, I had the following key
+            As a developer with Savory & Partners, I had the following key
             responsibilities:
             <ul>
               <li>
-                I played a key role in elevating the user experience of the
-                platform. Contributed to the development and refinement of
-                intuitive and responsive user interfaces.
+                I played a key role in migrating the existing WordPress website
+                to Next.js, TailwindCSS and Sanity.io CMS.
               </li>
               <li>
-                Implemented a versatile and efficient multi-purpose search
-                component, enhancing the platform's capability to seamlessly
-                navigate and retrieve prompts for various AI platforms.
+                Implemented modern web development practices, ensuring a
+                responsive and mobile-friendly design across all devices.
               </li>
               <li>
-                Implemented a robust and reusable components structure where I
-                followed the Atomic design schema, ensuring a systematic and
-                scalable approach to frontend development.
+                Leveraged Next.js's server-side rendering capabilities to
+                improve initial page load times and overall performance.
+              </li>
+              <li>
+                Utilized Next.js's image optimization features and implemented
+                lazy loading to enhance page load speeds.
+              </li>
+              <li>
+                Dramatically improved website performance, increasing overall
+                scores from 60% to 85%. Implemented advanced SEO techniques,
+                including optimized meta tags, structured data, and improved
+                site architecture.
               </li>
             </ul>
           </div>
@@ -85,57 +94,70 @@ export const config = {
         "React.js",
         "Next.js v14",
         "Typescript",
-        "Material-UI",
-        "Styled-components",
+        "TailwindCSS",
         "Sanity.io",
         "Git",
-        "Jest",
       ],
       links: [
-        <ExternalLink to="https://www.promptpal.net/platforms/chatgpt">
-          Promptpal Dashboard
+        <ExternalLink to="https://www.savoryandpartners.com/">
+          Savory & Partners
         </ExternalLink>,
       ],
     },
     {
       title: (
-        <ExternalLink to="https://signoz.io">
-          <h3>SigNoz: Open-source observability platform</h3>
+        <ExternalLink to="https://marlin.org">
+          <h3>Marlin: Scalable coprocessors for decentralized compute</h3>
         </ExternalLink>
       ),
-      logo: <SigNozIcon />,
+      logo: <img src={MarlinIcon} alt="Marlin" width={30} height={30} />,
       description: (
         <>
           <p>
-            Signoz is an open-source observability platform that helps engineers
-            monitor and troubleshoot complex distributed systems. With features
-            such as tracing, metrics, and logs, Signoz provides comprehensive
-            visibility into the performance and health of applications.
+            Marlin is a verifiable computing protocol featuring TEE and ZK-based
+            coprocessors to delegate complex workloads over a decentralized
+            cloud.
           </p>
           <div>
-            As a developer with SigNoz, I had the following key
+            As a developer with Marlin, I had the following key
             responsibilities:
             <ul>
               <li>
-                Worked as a Frontend Engineer for SigNoz, an open-source
-                observability platform.
+                Contributed to open-source Web3 projects, utilizing Svelte Kit
+                and JavaScript to develop cutting-edge solutions.
               </li>
               <li>
-                Designed and developed user interfaces using the latest
-                front-end technologies, such as React, Redux, and Typescript
-                with Ant Design UI library.
+                Led the development of the Oyster platform, enabling
+                decentralized and secure cloud computing. Designed and
+                implemented a serverless Web3 architecture to support scalable
+                and efficient decentralized applications.
               </li>
               <li>
-                I created the WHERE clause custom Select component to retrieve
-                value as the tag key, operator, and value for Query while
-                working on the Query Builder feature development team.
+                Integrated AWS infrastructure to create a robust framework for
+                decentralized cloud services, aligning with Web3 principles of
+                security and decentralization.
+              </li>
+              <li>
+                Successfully delivered a decentralized solution that enhanced
+                data security and scalability in cloud computing.
+              </li>
+              <li>
+                Collaborated with a global team of contributors, fostering
+                innovation in Web3 technologies. Streamlined the integration of
+                AWS services within a decentralized framework, improving
+                performance and reliability.
               </li>
             </ul>
           </div>
         </>
       ),
       tags: [
-        "React.js",
+        "Svelte Kit",
+        "JavaScript",
+        "AWS",
+        "Web3",
+        "Decentralized Computing",
+        "Open-Source",
         "Typescript",
         "Ant Design",
         "Styled-components",
@@ -145,14 +167,7 @@ export const config = {
         "Unit Testing",
         "API Integration",
       ],
-      links: [
-        <ExternalLink to="https://github.com/SigNoz/signoz">
-          Open-Source GitHub Repository
-        </ExternalLink>,
-        <ExternalLink to="https://github.com/SigNoz/signoz/commits?author=techchintan">
-          My Contribution
-        </ExternalLink>,
-      ],
+      links: [<ExternalLink to="https://www.marlin.org">Marlin</ExternalLink>],
     },
     {
       title: (
@@ -288,6 +303,5 @@ export const config = {
       href: "https://www.upwork.com/freelancers/kyadanayan",
       icon: <SiUpwork />,
     },
-   
   ],
 };
