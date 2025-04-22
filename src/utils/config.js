@@ -3,6 +3,8 @@ import MarlinIcon from "pages/projects/assets/marlin.png";
 import DittoJobsIcon from "pages/projects/assets/ditto.png";
 import GupshupIcon from "pages/projects/assets/gupshup.png";
 import PromptpalIcon from "pages/projects/assets/promptpal.avif";
+import PublicisSapientIcon from "pages/projects/assets/ps.jpg";
+import SolutelabsIcon from "pages/projects/assets/solutelabs.png";
 import { ExternalLink } from "pages/projects/ExternalLink";
 import { FaLinkedinIn } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
@@ -86,6 +88,10 @@ export const config = {
               </li>
             </ul>
           </div>
+          <p>
+            This project allowed me to explore technologies such as Sanity.io
+            CMS, TailwindCSS, Next.js, Web performance and SEO optimization.
+          </p>
         </>
       ),
       tags: [
@@ -94,7 +100,12 @@ export const config = {
         "Typescript",
         "TailwindCSS",
         "Sanity.io",
-        "Git",
+        "Web Performance",
+        "Image Optimization",
+        "Server-Side Rendering",
+        "Responsive Design",
+        "Performance Optimization",
+        "SEO Optimization",
       ],
       links: [
         <ExternalLink to="https://www.savoryandpartners.com/">
@@ -144,6 +155,10 @@ export const config = {
               </li>
             </ul>
           </div>
+          <p>
+            This project allowed me to explore technologies such as Progressive
+            Web Apps, AWS services like DynamoDB, AWS Amplify, and s3 Bucket.
+          </p>
         </>
       ),
       tags: [
@@ -203,6 +218,10 @@ export const config = {
               </li>
             </ul>
           </div>
+          <p>
+            This project allowed me to explore technologies such as Algolia,
+            Atomic Design, and Next.js.
+          </p>
         </>
       ),
       tags: [
@@ -351,6 +370,159 @@ export const config = {
         "Superlemon",
       ],
       links: [<ExternalLink to="https://www.gupshup.io">Gupshup</ExternalLink>],
+    },
+    {
+      title: (
+        <ExternalLink to="https://www.publicissapient.com/">
+          <h3>Publicis Sapient: Unlock a world of digital possibilities</h3>
+        </ExternalLink>
+      ),
+      logo: (
+        <img
+          src={PublicisSapientIcon}
+          alt="Publicis Sapient"
+          width={30}
+          height={30}
+        />
+      ),
+      description: (
+        <>
+          <p>
+            Publicis Sapient is a global digital consulting firm specializing in
+            digital business transformation, helping companies adapt to
+            technological and societal changes by providing services like
+            strategy, customer experience design, technology engineering, data &
+            AI solutions, and digital product management across various
+            industries.
+          </p>
+
+          <div>
+            As a frontend developer at Publicis Sapient, I had the following
+            responsibilities and accomplishments:
+            <ul>
+              <li>
+                <strong>
+                  Designed and Developed Responsive Email Templates:
+                </strong>{" "}
+                Crafted mobile-friendly HTML and CSS email templates that are
+                visually engaging and optimized for diverse devices.
+              </li>
+              <li>
+                <strong>Streamlined Email Communication Processes:</strong>{" "}
+                Collaborated with cross-functional teams to implement efficient
+                workflows for transactional and non-transactional emails,
+                improving communication accuracy.
+              </li>
+              <li>
+                <strong>Built a Customizable Email Template Platform:</strong>{" "}
+                Developed a frontend solution allowing organizations to easily
+                customize and manage branded email templates, enhancing customer
+                engagement.
+              </li>
+              <li>
+                <strong>Collaborated on Automated Email Campaigns:</strong>{" "}
+                Partnered with automation teams to create and manage a system
+                for seamless email campaign deployment, tracking, and
+                performance analysis.
+              </li>
+            </ul>
+          </div>
+        </>
+      ),
+      tags: [
+        "React.js",
+        "Next.js",
+        "Typescript",
+        "Storybook",
+        "Tailwind CSS",
+        "HTML Template",
+        "Email Template",
+        "CSS",
+        "JavaScript",
+      ],
+      links: [
+        <ExternalLink to="https://www.publicissapient.com/">
+          Publicis Sapient
+        </ExternalLink>,
+      ],
+    },
+    {
+      title: (
+        <ExternalLink to="https://www.solutelabs.com/">
+          <h3>
+            Solutelabs: SoluteLabs crafts digital solutions using AI, Product
+            Engineering and UI/UX design.
+          </h3>
+        </ExternalLink>
+      ),
+      logo: (
+        <img src={SolutelabsIcon} alt="Solutelabs" width={30} height={30} />
+      ),
+      description: (
+        <>
+          <p>
+            Solutelabs provides end-to-end product development agencies helping
+            businesses of all sizes, from startups with big ideas to enterprises
+            on a digital transformation path.
+          </p>
+
+          <div>
+            As a frontend developer at Solutelabs, I had the following
+            responsibilities and accomplishments:
+            <ul>
+              <ul>
+                <li>
+                  <strong>Developed Sangam Health App:</strong> Built a
+                  React-based application to assist healthcare professionals in
+                  managing patient medications and ensuring schedule adherence.
+                </li>
+                <li>
+                  <strong>Implemented Prescription Scheduling System:</strong>{" "}
+                  Focused on frontend development for a dynamic and responsive
+                  prescription scheduling feature using HTML, CSS, Tailwind CSS,
+                  JavaScript, React.js, Next.js, and TypeScript.
+                </li>
+                <li>
+                  <strong>Engineered Live History India Platform:</strong>{" "}
+                  Developed a Next.js platform showcasing rich Indian historical
+                  content, integrating with SanityCMS for flexible content
+                  management.
+                </li>
+                <li>
+                  <strong>
+                    Integrated SanityCMS for Dynamic Content Management:
+                  </strong>{" "}
+                  Enabled admins to manage various content types—articles,
+                  blogs, podcasts, stories, movies, and books—through seamless
+                  Sanity.io integration.
+                </li>
+                <li>
+                  <strong>Crafted Engaging Frontend Experience:</strong>{" "}
+                  Delivered a robust and engaging UI leveraging HTML, CSS,
+                  Tailwind CSS, JavaScript, React.js, Next.js, and TypeScript to
+                  support content-driven experiences.
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </>
+      ),
+      tags: [
+        "React.js",
+        "Next.js",
+        "Typescript",
+        "Storybook",
+        "Tailwind CSS",
+        "HTML Template",
+        "Email Template",
+        "CSS",
+        "JavaScript",
+      ],
+      links: [
+        <ExternalLink to="https://www.solutelabs.com/">
+          Solutelabs
+        </ExternalLink>,
+      ],
     },
   ],
   footerLinks: [
