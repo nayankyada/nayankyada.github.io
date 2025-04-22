@@ -1,10 +1,8 @@
-import {
-  AngelOneIcon,
-  MoneyHopIcon,
-  SigNozIcon,
-} from "pages/projects/assets/icons";
+
 import SavoryIcon from "pages/projects/assets/savory.webp";
 import MarlinIcon from "pages/projects/assets/marlin.png";
+import DittoJobsIcon from "pages/projects/assets/ditto.png";
+import GupshupIcon from "pages/projects/assets/gupshup.png";
 import { ExternalLink } from "pages/projects/ExternalLink";
 import { FaLinkedinIn } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
@@ -65,26 +63,26 @@ export const config = {
             responsibilities:
             <ul>
               <li>
-                I played a key role in migrating the existing WordPress website
-                to Next.js, TailwindCSS and Sanity.io CMS.
+                <strong>Led Migration to Modern Tech Stack:</strong> Migrated
+                the existing WordPress site to Next.js, TailwindCSS, and
+                Sanity.io, adopting modern web development practices.
               </li>
               <li>
-                Implemented modern web development practices, ensuring a
-                responsive and mobile-friendly design across all devices.
+                <strong>Enhanced Performance with SSR & Optimization:</strong>{" "}
+                Leveraged Next.js server-side rendering and image optimization
+                features, including lazy loading, to significantly boost
+                performance and load speeds.
               </li>
               <li>
-                Leveraged Next.js's server-side rendering capabilities to
-                improve initial page load times and overall performance.
+                <strong>Improved Responsive Design:</strong> Ensured a fully
+                responsive, mobile-friendly design across all devices for a
+                seamless user experience.
               </li>
               <li>
-                Utilized Next.js's image optimization features and implemented
-                lazy loading to enhance page load speeds.
-              </li>
-              <li>
-                Dramatically improved website performance, increasing overall
-                scores from 60% to 85%. Implemented advanced SEO techniques,
-                including optimized meta tags, structured data, and improved
-                site architecture.
+                <strong>Boosted SEO & Site Performance:</strong> Increased
+                performance scores from 60% to 85% by implementing advanced SEO
+                strategies like optimized meta tags, structured data, and
+                refined site architecture.
               </li>
             </ul>
           </div>
@@ -123,29 +121,26 @@ export const config = {
             responsibilities:
             <ul>
               <li>
-                Contributed to open-source Web3 projects, utilizing Svelte Kit
-                and JavaScript to develop cutting-edge solutions.
+                <strong>
+                  Led Development of Decentralized Cloud Platform:
+                </strong>{" "}
+                Spearheaded the creation of the Oyster platform, implementing a
+                serverless Web3 architecture for secure and scalable
+                decentralized applications.
               </li>
               <li>
-                Led the development of the Oyster platform, enabling
-                decentralized and secure cloud computing. Designed and
-                implemented a serverless Web3 architecture to support scalable
-                and efficient decentralized applications.
+                <strong>Integrated AWS with Web3 Infrastructure:</strong>{" "}
+                Designed and integrated AWS services into a decentralized
+                framework, enhancing performance, reliability, and alignment
+                with Web3 security principles.
               </li>
               <li>
-                Integrated AWS infrastructure to create a robust framework for
-                decentralized cloud services, aligning with Web3 principles of
-                security and decentralization.
-              </li>
-              <li>
-                Successfully delivered a decentralized solution that enhanced
-                data security and scalability in cloud computing.
-              </li>
-              <li>
-                Collaborated with a global team of contributors, fostering
-                innovation in Web3 technologies. Streamlined the integration of
-                AWS services within a decentralized framework, improving
-                performance and reliability.
+                <strong>
+                  Contributed to Open-Source & Global Collaboration:
+                </strong>{" "}
+                Actively contributed to open-source Web3 projects using
+                SvelteKit and JavaScript, collaborating with an international
+                team to drive innovation in decentralized technologies.
               </li>
             </ul>
           </div>
@@ -171,93 +166,111 @@ export const config = {
     },
     {
       title: (
-        <ExternalLink to="https://www.angelone.in">
-          <h3>Angel One: Online Trading & Stock Broking</h3>
+        <ExternalLink to="https://www.ditto.jobs/">
+          <h3>Ditto Jobs: Get HIRED with Ditto Jobs.</h3>
         </ExternalLink>
       ),
-      logo: <AngelOneIcon />,
+      logo: <img src={DittoJobsIcon} alt="Ditto Jobs" width={30} height={30} />,
       description: (
         <>
           <p>
-            AngelOne Trading Platform is a web-based investment platform that
-            allows users to trade in equities, derivatives, and mutual funds.
-            With its user-friendly interface and comprehensive research tools,
-            AngelOne aims to provide a seamless and efficient trading experience
-            for investors of all levels.
+            Welcome to Ditto Jobs. Discover thousands of new opportunities
+            daily! Sign up and kickstart your job search today.
           </p>
 
           <div>
-            As a developer with AngelOne, I had the following key
+            As a developer with Ditto Jobs, I had the following key
             responsibilities:
             <ul>
               <li>
-                Created an eSign KYC module for sub-brokers to facilitate
-                trading with AngelOne. Implemented custom validation of buttons
-                at every step of KYC to prevent unwanted actions by end users.
+                <strong>Led Frontend Development & Design:</strong> Spearheaded
+                the architecture and development of the Ditto.jobs platform
+                using HTML, CSS, JavaScript, TypeScript, Redux, Styled
+                Components, and Ant Design, ensuring a seamless and scalable
+                frontend.
               </li>
               <li>
-                Configured Unit testing and E2E testing libraries like Jest and
-                Cypress.io from scratch. Wrote over 534 test cases for
-                components, pages, and E2E services to achieve the desired code
-                coverage.
+                <strong>Delivered Key Features & User Experience:</strong>{" "}
+                Designed and implemented critical functionalities like user
+                profiles, CV tools, and remote job search, while collaborating
+                with cross-functional teams to deliver an intuitive and engaging
+                user experience.
               </li>
               <li>
-                Continuously improved code and structure for better bug-free
-                features, resulting in an 90% code coverage.
+                <strong>Maintained Code Quality & Performance:</strong>{" "}
+                Conducted code reviews, resolved technical issues, and optimized
+                performance through regular enhancements, ensuring a reliable
+                and high-performing platform.
               </li>
             </ul>
           </div>
         </>
       ),
       tags: [
-        "Vue.js",
-        "VueX",
+        "React.js",
         "Typescript",
-        "SCSS",
+        "Redux",
+        "Styled-components",
+        "Ant Design",
         "Cypress.io",
-        "Vuetify",
-        "Vitest",
         "Postman",
+        "Unit Testing",
       ],
       links: [
-        <ExternalLink to="https://trade.angelone.in">
-          AngelOne KYC
-        </ExternalLink>,
+        <ExternalLink to="https://www.ditto.jobs/">Ditto Jobs</ExternalLink>,
       ],
     },
     {
       title: (
-        <ExternalLink to="https://www.moneyhop.co">
-          <h3>moneyHOP: India's First Cross-Border Neo Bank</h3>
+        <ExternalLink to="https://www.gupshup.io">
+          <h3>Gupshup: AI-powered messaging platform</h3>
         </ExternalLink>
       ),
-      logo: <MoneyHopIcon />,
+      logo: <img src={GupshupIcon} alt="Gupshup" width={30} height={30} />,
       description: (
         <>
           <p>
-            moneyHOP is We are a full-stack banking solution that lets users
-            Save, Invest, Borrow, and Spend. It has introduced the concept of
-            ‘One Global Account - One Global Card’ - which allows users to do
-            ‘everything banking’ from anywhere.
+            Gupshup is an AI-powered messaging platform that allows businesses
+            to connect with customers through various channels like WhatsApp,
+            SMS, and more.
           </p>
 
           <div>
-            As a software engineer at moneyHOP, I had the following
+            As a software engineer at Gupshup, I had the following
             responsibilities and accomplishments:
             <ul>
-              <li>
-                As a founding tech member, I oversaw the end-to-end product
-                development of the frontend for cross-border Neo Bank Solutions,
-                Remittance, and SaaS modules.
-              </li>
-              <li>
-                I designed and built the Remittance frontend system from scratch
-                and shaped the product continuously with the Founder and Product
-                Managers to achieve the product-market fit. Additionally, I
-                participated in the hiring process to bolster the tech team,
-                mentored junior team members, and assisted them in debugging
-                customer and vendor onboarding queries and reporting bugs.
-              </li>
+              <ul>
+                <li>
+                  <strong>Developed Key Superlemon Products:</strong>{" "}
+                  Contributed to the Superlemon web app, Chrome extension, and
+                  Marketing Dashboard in collaboration with Gupshup.io.
+                </li>
+                <li>
+                  <strong>Built Custom UI for Merchant Tools:</strong>{" "}
+                  Engineered user-friendly interfaces for merchants to manage
+                  chat support, message templates, and customer engagement
+                  through the Superlemon web app.
+                </li>
+                <li>
+                  <strong>
+                    Designed Chrome Extension for Customer Management:
+                  </strong>{" "}
+                  Created a Chrome extension enabling merchants to manage
+                  customers and communicate via WhatsApp Web for improved
+                  efficiency.
+                </li>
+                <li>
+                  <strong>Architected Marketing Dashboard:</strong> Developed a
+                  dashboard that allows merchants to import customer data and
+                  launch targeted product campaigns to boost sales.
+                </li>
+                <li>
+                  <strong>Utilized Modern Frontend Stack:</strong> Applied
+                  technologies such as HTML, CSS, JavaScript, ReactJS,
+                  TypeScript, MUI, and PolarisUI to ensure a seamless and
+                  scalable user experience.
+                </li>
+              </ul>
             </ul>
           </div>
           <p>
@@ -276,14 +289,12 @@ export const config = {
         "Tailwind CSS",
         "AWS for Deployments",
         "API Integration",
+        "Chrome Extension",
+        "Marketing Dashboard",
+        "Superlemon",
       ],
       links: [
-        <ExternalLink to="https://hopremit.moneyhop.co">
-          hopRemit - for Customers
-        </ExternalLink>,
-        <ExternalLink to="https://k2.moneyhop.co">
-          k2Remit - Vendors
-        </ExternalLink>,
+        <ExternalLink to="https://www.gupshup.io">Gupshup</ExternalLink>,
       ],
     },
   ],
