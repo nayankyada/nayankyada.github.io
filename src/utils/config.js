@@ -319,38 +319,36 @@ export const config = {
             As a software engineer at Gupshup, I had the following
             responsibilities and accomplishments:
             <ul>
-              <ul>
-                <li>
-                  <strong>Developed Key Superlemon Products:</strong>{" "}
-                  Contributed to the Superlemon web app, Chrome extension, and
-                  Marketing Dashboard in collaboration with Gupshup.io.
-                </li>
-                <li>
-                  <strong>Built Custom UI for Merchant Tools:</strong>{" "}
-                  Engineered user-friendly interfaces for merchants to manage
-                  chat support, message templates, and customer engagement
-                  through the Superlemon web app.
-                </li>
-                <li>
-                  <strong>
-                    Designed Chrome Extension for Customer Management:
-                  </strong>{" "}
-                  Created a Chrome extension enabling merchants to manage
-                  customers and communicate via WhatsApp Web for improved
-                  efficiency.
-                </li>
-                <li>
-                  <strong>Architected Marketing Dashboard:</strong> Developed a
-                  dashboard that allows merchants to import customer data and
-                  launch targeted product campaigns to boost sales.
-                </li>
-                <li>
-                  <strong>Utilized Modern Frontend Stack:</strong> Applied
-                  technologies such as HTML, CSS, JavaScript, ReactJS,
-                  TypeScript, MUI, and PolarisUI to ensure a seamless and
-                  scalable user experience.
-                </li>
-              </ul>
+              <li>
+                <strong>Developed Key Superlemon Products:</strong>{" "}
+                Contributed to the Superlemon web app, Chrome extension, and
+                Marketing Dashboard in collaboration with Gupshup.io.
+              </li>
+              <li>
+                <strong>Built Custom UI for Merchant Tools:</strong>{" "}
+                Engineered user-friendly interfaces for merchants to manage
+                chat support, message templates, and customer engagement
+                through the Superlemon web app.
+              </li>
+              <li>
+                <strong>
+                  Designed Chrome Extension for Customer Management:
+                </strong>{" "}
+                Created a Chrome extension enabling merchants to manage
+                customers and communicate via WhatsApp Web for improved
+                efficiency.
+              </li>
+              <li>
+                <strong>Architected Marketing Dashboard:</strong> Developed a
+                dashboard that allows merchants to import customer data and
+                launch targeted product campaigns to boost sales.
+              </li>
+              <li>
+                <strong>Utilized Modern Frontend Stack:</strong> Applied
+                technologies such as HTML, CSS, JavaScript, ReactJS,
+                TypeScript, MUI, and PolarisUI to ensure a seamless and
+                scalable user experience.
+              </li>
             </ul>
           </div>
           <p>
@@ -478,39 +476,37 @@ export const config = {
             As a frontend developer at Solutelabs, I had the following
             responsibilities and accomplishments:
             <ul>
-              <ul>
-                <li>
-                  <strong>Developed Sangam Health App:</strong> Built a
-                  React-based application to assist healthcare professionals in
-                  managing patient medications and ensuring schedule adherence.
-                </li>
-                <li>
-                  <strong>Implemented Prescription Scheduling System:</strong>{" "}
-                  Focused on frontend development for a dynamic and responsive
-                  prescription scheduling feature using HTML, CSS, Tailwind CSS,
-                  JavaScript, React.js, Next.js, and TypeScript.
-                </li>
-                <li>
-                  <strong>Engineered Live History India Platform:</strong>{" "}
-                  Developed a Next.js platform showcasing rich Indian historical
-                  content, integrating with SanityCMS for flexible content
-                  management.
-                </li>
-                <li>
-                  <strong>
-                    Integrated Sanity.io CMS for Dynamic Content Management:
-                  </strong>{" "}
-                  Enabled admins to manage various content types—articles,
-                  blogs, podcasts, stories, movies, and books—through seamless
-                  Sanity.io integration.
-                </li>
-                <li>
-                  <strong>Crafted Engaging Frontend Experience:</strong>{" "}
-                  Delivered a robust and engaging UI leveraging HTML, CSS,
-                  Tailwind CSS, JavaScript, React.js, Next.js, and TypeScript to
-                  support content-driven experiences.
-                </li>
-              </ul>
+              <li>
+                <strong>Developed Sangam Health App:</strong> Built a
+                React-based application to assist healthcare professionals in
+                managing patient medications and ensuring schedule adherence.
+              </li>
+              <li>
+                <strong>Implemented Prescription Scheduling System:</strong>{" "}
+                Focused on frontend development for a dynamic and responsive
+                prescription scheduling feature using HTML, CSS, Tailwind CSS,
+                JavaScript, React.js, Next.js, and TypeScript.
+              </li>
+              <li>
+                <strong>Engineered Live History India Platform:</strong>{" "}
+                Developed a Next.js platform showcasing rich Indian historical
+                content, integrating with SanityCMS for flexible content
+                management.
+              </li>
+              <li>
+                <strong>
+                  Integrated Sanity.io CMS for Dynamic Content Management:
+                </strong>{" "}
+                Enabled admins to manage various content types—articles,
+                blogs, podcasts, stories, movies, and books—through seamless
+                Sanity.io integration.
+              </li>
+              <li>
+                <strong>Crafted Engaging Frontend Experience:</strong>{" "}
+                Delivered a robust and engaging UI leveraging HTML, CSS,
+                Tailwind CSS, JavaScript, React.js, Next.js, and TypeScript to
+                support content-driven experiences.
+              </li>
             </ul>
           </div>
           <p>
